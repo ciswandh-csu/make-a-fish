@@ -1,0 +1,43 @@
+body {
+  background-image: url("../media/water2.jpg");
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+p {
+  background-color: rgb(156, 191, 209);
+  padding: 25px;
+  width: 750px;
+  margin: auto;
+  border-radius: 2px;
+}
+img {
+  width: 100%;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+#steps {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+figure {
+  width: 250px;
+  background-color: #54adb58b;
+  border: 6px solid #92d4db;
+  border-radius: 150px;
+  padding: 30px;
+}
+figcaption {
+  text-align: center;
+  border-radius: 100px;
+}
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(162, 188, 210, 0.8);
+  margin-top: 0;
+}
